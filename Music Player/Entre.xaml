@@ -9,7 +9,7 @@
         Height="450"
         Width="800"
         WindowStartupLocation="CenterScreen"
-        WindowStyle="None">
+        WindowStyle="None" ResizeMode="NoResize">
     <Window.Resources>
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
         <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>

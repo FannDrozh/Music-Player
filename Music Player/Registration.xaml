@@ -11,7 +11,7 @@
         MaxHeight="450" 
         MaxWidth="800"
         WindowStartupLocation="CenterScreen"
-        WindowStyle="None">
+        WindowStyle="None" ResizeMode="NoResize">
     <Window.Resources>
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
         <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>
@@ -207,6 +207,7 @@
                Width="40" 
                Grid.Column="3"
                HorizontalAlignment="Right"
+               Cursor="Hand"
                VerticalAlignment="Top" MouseLeftButtonUp="Image_MouseLeftButtonUp"/>
 
         <!--Кнопка регистрации-->
@@ -223,6 +224,16 @@
                     Grid.Column="1"
                     Grid.ColumnSpan="2" Style="{DynamicResource ButtonStyle}" 
                     Click="Button_Click">Зарегистрироваться</Button>
+        
+        <!--Назад на вход-->
+        <Image Source="Assets\Back.png" 
+               Height="40" 
+               Width="40" 
+               Grid.Column="0"
+               HorizontalAlignment="Left"
+               Cursor="Hand"
+               VerticalAlignment="Top" MouseLeftButtonUp="Image_MouseLeftButtonUp_1" 
+               />
 
     </Grid>
 </Window>
