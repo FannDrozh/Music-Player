@@ -29,19 +29,7 @@
                   VerticalAlignment="Top"
                   Margin="0,30,0,0">
 
-                <Border Background="#D61734"
-                        Height="25"
-                        CornerRadius="3,0,0,3"
-                        Width="6"
-                        VerticalAlignment="Center"
-                        HorizontalAlignment="Right" />
-
-                <TextBlock Text="M e t h o d       G a u s"
-                           Foreground="#FFFFFF"
-                           FontFamily="Fonts/#Orbitron Medium"
-                           FontSize="15"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center" />
+                <Image Source="Assets/Logo.png"/>
 
             </Grid>
 
@@ -67,8 +55,7 @@
 
                     <MenuItem.Icon>
 
-                        <Image Source="Assets/img_home.png"
-                               Stretch="None" />
+                        <Image Source="Assets/img_home.png" />
 
                     </MenuItem.Icon>
 
@@ -80,8 +67,7 @@
 
                     <MenuItem.Icon>
 
-                        <Image Source="Assets/img_music.png"
-                               Stretch="None" />
+                        <Image Source="Assets/img_music.png"/>
 
                     </MenuItem.Icon>
                     <!--// Solution Submenu - Steps //-->
@@ -90,8 +76,7 @@
 
                         <MenuItem.Icon>
 
-                            <Image Source="Assets/img_songs.png"
-                                   Stretch="None" />
+                            <Image Source="Assets/img_songs.png"/>
 
                         </MenuItem.Icon>
 
@@ -105,8 +90,7 @@
 
                     <MenuItem.Icon>
 
-                        <Image Source="Assets/img_about.png"
-                               Stretch="None" />
+                        <Image Source="Assets/img_about.png"/>
 
                     </MenuItem.Icon>
 
@@ -119,8 +103,7 @@
 
                     <MenuItem.Icon>
 
-                        <Image Source="Assets/img_exit.png"
-                               Stretch="None" />
+                        <Image Source="Assets/img_exit.png" />
 
                     </MenuItem.Icon>
 

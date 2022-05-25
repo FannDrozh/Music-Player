@@ -15,31 +15,26 @@ using System.Windows.Shapes;
 namespace Music_Player
 {
     /// <summary>
-    /// Логика взаимодействия для Window2.xaml
+    /// Логика взаимодействия для Registration.xaml
     /// </summary>
-    public partial class Entre : Window
+    public partial class Registration : Window
     {
-        public Entre()
+        public Registration()
         {
             InitializeComponent();
         }
 
-        private void Exit_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        private void Image_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             Close();
         }
 
-        private void Entree_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void NotAc_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            //Entre entre = new Entre();
-            //entre.Close();
             Registration registration = new Registration();
-            registration.Show();
+            registration.Close();
+            Entre entre = new Entre();
+            entre.Show();
             this.Hide();
             
         }

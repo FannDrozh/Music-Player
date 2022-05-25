@@ -1,0 +1,38 @@
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.exe.config
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.exe
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.pdb
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csprojAssemblyReference.cache
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\MainWindow.g.cs
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\App.g.cs
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player_MarkupCompile.cache
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player_MarkupCompile.lref
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\MainWindow.baml
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.g.resources
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music_Player.Properties.Resources.resources
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csproj.GenerateResource.cache
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.exe
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.pdb
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Entre.g.cs
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Entre.baml
+C:\Users\User\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.exe.config
+C:\Users\User\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.exe
+C:\Users\User\Desktop\Music-Player-master\Music Player\bin\Debug\Music Player.pdb
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Entre.g.cs
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player_MarkupCompile.cache
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player_MarkupCompile.lref
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Entre.baml
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.g.resources
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music_Player.Properties.Resources.resources
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.exe
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Music Player.pdb
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Registration.g.cs
+C:\Users\User\Desktop\Music-Player-master\Music Player\obj\Debug\Registration.baml
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Registration.g.cs
+\\main\RDP\33П\БарашенковИТ\Desktop\Music-Player-master\Music Player\obj\Debug\Registration.baml
