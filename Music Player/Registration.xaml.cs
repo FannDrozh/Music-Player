@@ -22,19 +22,20 @@ namespace Music_Player
     
     public partial class Registration : Window
     {
-        public DataTable Select(string selectSQL)
-        {
-            DataTable dataTable = new DataTable("dataBase");
 
-            SqlConnection sqlConnection = new SqlConnection("server=ngknn.ru;Trusted_Connection=No;DataBase=MusicPlayer;User=33P;PWD=12357");
-            sqlConnection.Open();
-            SqlCommand sqlCommand = sqlConnection.CreateCommand();
-            sqlCommand.CommandText = selectSQL;
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand);
-            sqlDataAdapter.Fill(dataTable);
-            sqlConnection.Close();//возвращаем таблицу с результатом
-            return dataTable;
-        }
+        //public DataTable Select(string selectSQL)
+        //{
+        //    DataTable dataTable = new DataTable("dataBase");//создаём таблицу в приложении
+        //                                                    //подключаемся к БД
+        //    SqlConnection sqlConnection = new SqlConnection("server=ngknn.ru;Trusted_Connection=No;DataBase=MusicPlayer;User=33P;PWD=12357");
+        //    sqlConnection.Open();//открываем БД
+        //    SqlCommand sqlCommand = sqlConnection.CreateCommand();//содаём команду
+        //    sqlCommand.CommandText = selectSQL;//присваиваем команде текст
+        //    SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand);//создаём обработчик
+        //    sqlDataAdapter.Fill(dataTable);
+        //    sqlConnection.Close();//возвращаем таблицу с результатом
+        //    return dataTable;
+        //}
         public Registration()
         {
             InitializeComponent();
@@ -46,11 +47,12 @@ namespace Music_Player
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {            
+        {
+            //DataTable dt_user = Select("SELECT * FROM [dbo].[users]"); // получаем данные из таблицы
+
             Entre entre = new Entre();
             entre.Show();
-            this.Hide();
-            
+            this.Hide();            
         }
 
         private void Image_MouseLeftButtonUp_1(object sender, MouseButtonEventArgs e)

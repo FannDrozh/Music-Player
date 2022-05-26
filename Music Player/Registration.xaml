@@ -148,7 +148,7 @@
         </StackPanel>
 
         <!--Ник-->
-        <TextBlock FontFamily="Fonts/#Roboto" 
+        <TextBlock FontFamily="./Fonts/#Roboto" 
                    FontWeight="Bold" 
                    FontSize="35" 
                    Foreground="#FFFF" 
@@ -156,23 +156,25 @@
                    VerticalAlignment="Center"
                    Grid.Row="1" Height="42" Width="66">Ник</TextBlock>
 
-        <TextBox BorderThickness="0" 
+        <TextBox x:Name="Name"
                  Height="50" 
                  Width="380"
                  FontFamily="Roboto" 
                  FontSize="35" 
                  Grid.Column="1" 
                  Grid.ColumnSpan="2" 
-                 Grid.Row="1"/>
+                 Grid.Row="1"
+                 TextAlignment="Center"/>
 
         <!--Логин-->
-        <TextBlock FontFamily="Fonts/#Roboto" 
+        <TextBlock FontFamily="./Fonts/#Roboto" 
                    FontWeight="Bold"  
                    FontSize="35" 
                    Grid.Row="2"
                    Foreground="#FFFF" 
                    HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" Height="42" Width="104">Логин</TextBlock>
+                   VerticalAlignment="Center"
+                   Height="42" Width="104">Логин</TextBlock>
 
         <TextBox BorderThickness="0"  
                  Height="50"
@@ -181,25 +183,28 @@
                  FontSize="35" 
                  Grid.Column="1" 
                  Grid.ColumnSpan="2" 
-                 Grid.Row="2"/>
+                 Grid.Row="2"
+                 TextAlignment="Center"/>
 
         <!--Пароль-->
-        <TextBlock FontFamily="Fonts/#Roboto" 
+        <TextBlock FontFamily="./Fonts/#Roboto" 
                    FontWeight="Bold" 
                    FontSize="35" 
                    Foreground="#FFFF" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center"
-                   Grid.Row="3" Height="42" Width="126">Пароль</TextBlock>
+                   Grid.Row="3" 
+                   Height="42" Width="126">Пароль</TextBlock>
 
         <TextBox BorderThickness="0" 
                  Height="50"
                  Width="380"
                  FontFamily="Roboto"
-                 FontSize="20"
+                 FontSize="35"
                  Grid.Column="1"
                  Grid.ColumnSpan="2"
-                 Grid.Row="3"/>
+                 Grid.Row="3"
+                 TextAlignment="Center"/>
 
         <!--Кнопка закрытия-->
         <Image Source="Assets\Exit.png" 
@@ -232,8 +237,8 @@
                Grid.Column="0"
                HorizontalAlignment="Left"
                Cursor="Hand"
-               VerticalAlignment="Top" MouseLeftButtonUp="Image_MouseLeftButtonUp_1" 
-               />
+               VerticalAlignment="Top" 
+               MouseLeftButtonUp="Image_MouseLeftButtonUp_1"/>
 
     </Grid>
 </Window>

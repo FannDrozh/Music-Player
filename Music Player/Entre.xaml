@@ -207,7 +207,9 @@
                 Background="#FFA400" 
                 Foreground="White"
                 Cursor="Hand"
-                Style="{DynamicResource ButtonRadius}" Margin="8,10,8,71"/>
+                Style="{DynamicResource ButtonRadius}" 
+                Margin="8,10,8,71"
+                Click="Entree_Click"/>
 
         <!--Закрытие окна-->
         <Image x:Name="Exit"
