@@ -45,13 +45,13 @@ namespace Music_Player
 
         private void Entree_Click(object sender, RoutedEventArgs e)
         {
-            DataTable dt_user = Select("SELECT * FROM [dbo].[Users] Where [Login] = '" + LogV.Text + "' AND [Password] = '" + PasswordV.Text + "'");
-            if (dt_user != null)
+            DataTable dt_user = Select("SELECT * FROM [dbo].[Users] Where [Login] = '" + LogV.Text + "' AND [Password] = '" + PasswordV.Password + "'");
+            if (dt_user.Rows.Count!=0)
             {
                 MessageBox.Show("Вы есть в базе!");
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
-                this.Hide();
+                this.Close();
             }
             else
             {
@@ -63,7 +63,7 @@ namespace Music_Player
         {            
             Registration registration = new Registration();
             registration.Show();
-            this.Hide();            
+            this.Close();
         }
     }
 }
